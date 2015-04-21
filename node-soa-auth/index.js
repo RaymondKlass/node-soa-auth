@@ -6,7 +6,9 @@ var authMiddleware = function(req, res, next) {
   // Basic Process
   
   // Authenticate if a request is sent to an address
-  console.log(req);
+  console.log(req.url);
+  
+  //console.log(req);
   next();
 }
 
