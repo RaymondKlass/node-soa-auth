@@ -8,3 +8,9 @@ Run in development with from the node-soa_auth_example_app directory:
 ```
 DEBUG=node-soa_auth_example_app ./bin/www
 ```
+
+Or run with nodemon
+
+```
+sudo DEBUG=node-soa_auth_example_app nodemon ./bin/www --watch ./ --watch ../node-soa-auth
+```
